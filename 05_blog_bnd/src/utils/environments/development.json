@@ -4,5 +4,5 @@
     "databaseHost": "localhost",
     "databaseName": "blog",
     "databaseUser": "root",
-    "databasePassword": ""
+    "databasePassword": "root"
 }

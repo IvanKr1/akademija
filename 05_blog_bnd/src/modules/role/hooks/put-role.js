@@ -6,7 +6,7 @@ const updateRole = async (req, res) => {
 
 
 	try {
-		const result = await roleService.updateRole(req.body)
+		const result = await roleService.updateRole(req.body, req.params.id)
 
 
 		if (result.success) {
